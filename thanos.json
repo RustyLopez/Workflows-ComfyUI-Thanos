@@ -154,7 +154,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 53,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -201,7 +201,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 71,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -288,7 +288,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 54,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -335,7 +335,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 56,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -382,7 +382,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 55,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -545,7 +545,7 @@
         60
       ],
       "flags": {},
-      "order": 57,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -630,7 +630,7 @@
         90
       ],
       "flags": {},
-      "order": 59,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -724,7 +724,7 @@
         60
       ],
       "flags": {},
-      "order": 58,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -849,7 +849,7 @@
         90
       ],
       "flags": {},
-      "order": 84,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -896,7 +896,7 @@
         90
       ],
       "flags": {},
-      "order": 72,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -952,7 +952,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 91,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1039,7 +1039,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 103,
+      "order": 102,
       "mode": 0,
       "inputs": [
         {
@@ -1307,7 +1307,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 60,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1354,7 +1354,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 52,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1441,7 +1441,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 73,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -1486,7 +1486,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 76,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -1701,7 +1701,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 77,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -1746,7 +1746,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 79,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -1831,7 +1831,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 90,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -1876,7 +1876,7 @@
         210
       ],
       "flags": {},
-      "order": 74,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -1961,7 +1961,7 @@
         60
       ],
       "flags": {},
-      "order": 85,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -2088,7 +2088,7 @@
         523
       ],
       "flags": {},
-      "order": 64,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -2173,13 +2173,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "21_322737872210006_00002-audio.mp4",
+            "filename": "23_322737872210006_00001-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 29.970029970029966,
-            "workflow": "21_322737872210006_00002.png",
-            "fullpath": "/SwarmUI/dlbackend/ComfyUI/output/21_322737872210006_00002-audio.mp4"
+            "workflow": "23_322737872210006_00001.png",
+            "fullpath": "/SwarmUI/dlbackend/ComfyUI/output/23_322737872210006_00001-audio.mp4"
           }
         }
       }
@@ -2369,7 +2369,7 @@
         60
       ],
       "flags": {},
-      "order": 62,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -2500,7 +2500,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 75,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -2709,7 +2709,7 @@
         1530
       ],
       "flags": {},
-      "order": 63,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -2858,7 +2858,7 @@
         270
       ],
       "flags": {},
-      "order": 86,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -2978,7 +2978,7 @@
         60
       ],
       "flags": {},
-      "order": 67,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -3023,7 +3023,7 @@
         60
       ],
       "flags": {},
-      "order": 65,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -3068,7 +3068,7 @@
         200
       ],
       "flags": {},
-      "order": 81,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -3126,7 +3126,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 88,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -3169,7 +3169,7 @@
         200
       ],
       "flags": {},
-      "order": 89,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -3216,7 +3216,7 @@
         60
       ],
       "flags": {},
-      "order": 94,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -3299,7 +3299,7 @@
         60
       ],
       "flags": {},
-      "order": 80,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -3344,7 +3344,7 @@
         200
       ],
       "flags": {},
-      "order": 87,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -3400,7 +3400,7 @@
         60
       ],
       "flags": {},
-      "order": 68,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -3445,7 +3445,7 @@
         90
       ],
       "flags": {},
-      "order": 66,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -3534,7 +3534,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 92,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -3606,7 +3606,7 @@
         60
       ],
       "flags": {},
-      "order": 96,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -3678,7 +3678,7 @@
         60
       ],
       "flags": {},
-      "order": 101,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
@@ -3723,7 +3723,7 @@
         200
       ],
       "flags": {},
-      "order": 97,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -3770,7 +3770,7 @@
         200
       ],
       "flags": {},
-      "order": 93,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -3819,7 +3819,7 @@
         30
       ],
       "flags": {},
-      "order": 78,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -4060,7 +4060,7 @@
         250
       ],
       "flags": {},
-      "order": 83,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -4092,7 +4092,7 @@
         270
       ],
       "flags": {},
-      "order": 70,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -4124,7 +4124,7 @@
         60
       ],
       "flags": {},
-      "order": 102,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -4167,7 +4167,7 @@
         1420
       ],
       "flags": {},
-      "order": 61,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -4281,35 +4281,6 @@
       "widgets_values": []
     },
     {
-      "id": 2869,
-      "type": "Note",
-      "pos": [
-        -1630,
-        1900
-      ],
-      "size": [
-        910,
-        430
-      ],
-      "flags": {},
-      "order": 48,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "OF NOTE we relaly nee dot overlap by one frame though.. if we are odin ghits \n\nwhci hican do evne ith the offsets in clip duraiton  from lt.x\n\ni cn ajust make sure ot subtracst.. baiscall subtract as many frames form teh media start as is in our clip offset\n\nand you basiclal y i dn tvoe to do anylo0gic you basically keep running it until it can’t read frames….. ithinkk\n\nit may loop.. lol \n\nso idk\n\nwe may ahve ot do o somes math and fail the job\n\nbut that math ahs to account of the fact hat we are offsetting by “n” frames. ( clip offset )\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 2867,
       "type": "easy ifElse",
       "pos": [
@@ -4321,7 +4292,7 @@
         80
       ],
       "flags": {},
-      "order": 69,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -4379,7 +4350,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 82,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -4527,6 +4498,188 @@
       "widgets_values": []
     },
     {
+      "id": 2760,
+      "type": "PrimitiveInt",
+      "pos": [
+        -2170,
+        2630
+      ],
+      "size": [
+        380,
+        90
+      ],
+      "flags": {},
+      "order": 99,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "widget": {
+            "name": "value"
+          },
+          "link": 5812
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            5607
+          ]
+        }
+      ],
+      "title": "Clip Offset From Source Media In Frames",
+      "properties": {
+        "Node name for S&R": "PrimitiveInt",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        0,
+        "fixed"
+      ]
+    },
+    {
+      "id": 2777,
+      "type": "Basic data handling: IntMultiply",
+      "pos": [
+        -2770,
+        2490
+      ],
+      "size": [
+        270,
+        90
+      ],
+      "flags": {},
+      "order": 94,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "int1",
+          "type": "INT",
+          "widget": {
+            "name": "int1"
+          },
+          "link": 5604
+        },
+        {
+          "name": "int2",
+          "type": "INT",
+          "widget": {
+            "name": "int2"
+          },
+          "link": 5605
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            5811
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Basic data handling: IntMultiply",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 2778,
+      "type": "GetNode",
+      "pos": [
+        -3070,
+        2600
+      ],
+      "size": [
+        280,
+        60
+      ],
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            5605,
+            5813
+          ]
+        }
+      ],
+      "title": "Get_clip_offset_for_current_run_clip",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "clip_offset_for_current_run_clip"
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    },
+    {
+      "id": 2737,
+      "type": "PrimitiveInt",
+      "pos": [
+        -5460,
+        3910
+      ],
+      "size": [
+        1080,
+        90
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            5559
+          ]
+        }
+      ],
+      "title": "Clip To Generate This Run as Offset From Clip 0",
+      "properties": {
+        "Node name for S&R": "PrimitiveInt",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "value": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        25,
+        "increment"
+      ]
+    },
+    {
       "id": 2909,
       "type": "c9505ac0-c5d4-416f-a896-4aa9c6ee1e00",
       "pos": [
@@ -4538,7 +4691,7 @@
         140
       ],
       "flags": {},
-      "order": 99,
+      "order": 98,
       "mode": 0,
       "inputs": [
         {
@@ -4598,107 +4751,6 @@
       "widgets_values": []
     },
     {
-      "id": 2760,
-      "type": "PrimitiveInt",
-      "pos": [
-        -2170,
-        2630
-      ],
-      "size": [
-        380,
-        90
-      ],
-      "flags": {},
-      "order": 100,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "value",
-          "type": "INT",
-          "widget": {
-            "name": "value"
-          },
-          "link": 5812
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            5607
-          ]
-        }
-      ],
-      "title": "Clip Offset From Source Media In Frames",
-      "properties": {
-        "Node name for S&R": "PrimitiveInt",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        0,
-        "fixed"
-      ]
-    },
-    {
-      "id": 2777,
-      "type": "Basic data handling: IntMultiply",
-      "pos": [
-        -2770,
-        2490
-      ],
-      "size": [
-        270,
-        90
-      ],
-      "flags": {},
-      "order": 95,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "int1",
-          "type": "INT",
-          "widget": {
-            "name": "int1"
-          },
-          "link": 5604
-        },
-        {
-          "name": "int2",
-          "type": "INT",
-          "widget": {
-            "name": "int2"
-          },
-          "link": 5605
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            5811
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: IntMultiply",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        1,
-        1
-      ]
-    },
-    {
       "id": 2912,
       "type": "Basic data handling: IntSubtract",
       "pos": [
@@ -4710,7 +4762,7 @@
         130
       ],
       "flags": {},
-      "order": 98,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -4753,47 +4805,6 @@
       ]
     },
     {
-      "id": 2778,
-      "type": "GetNode",
-      "pos": [
-        -3070,
-        2600
-      ],
-      "size": [
-        280,
-        60
-      ],
-      "flags": {},
-      "order": 49,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            5605,
-            5813
-          ]
-        }
-      ],
-      "title": "Get_clip_offset_for_current_run_clip",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "clip_offset_for_current_run_clip"
-      ],
-      "color": "#1b4669",
-      "bgcolor": "#29699c"
-    },
-    {
       "id": 2913,
       "type": "Note",
       "pos": [
@@ -4811,50 +4822,10 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "Each successive clip, shifts backwars so that its first frame can be set to the exact same frame as the prior clips last frame.\n\nThis means the (current clip offset) * 1 ; or you know just the current clip offset, is the amount of frames we have to shift backwards to ensure we are overlapping with the last frame of the prior clip, accounting for it's own backwardds shift as well.\n\nSo for clip 0, 0 frames, 0 offset.\nFor clip 1, 1 frame shift for overlap, the prior had zero offset, but the current has 1 offset\nFor clip 2, 1 frame shift for overlap, but the prior clip had 1 frame also so 2 frames.\n\nBut this works out such that the number of shifts is equal to the clip offset.\n\nNOTE This works with our current design of, just run batches till you run out of footage. But if you were trying to produce a specific run length, then you have to be aware of these overlaps when determining how many clips there would be in total and how much excess in the last clip"
+        "Each successive clip, shifts backwars so that its first frame can be set to the exact same frame as the prior clips last frame.\n\nThis means the (current clip offset) * 1 ; or you know just the current clip offset, is the amount of frames we have to shift backwards to ensure we are overlapping with the last frame of the prior clip, accounting for it's own backwardds shift as well.\n\nSo for clip 0, 0 frames, 0 offset.\nFor clip 1, 1 frame shift for overlap, the prior had zero offset, but the current has 1 offset\nFor clip 2, 1 frame shift for overlap, but the prior clip had 1 frame also so 2 frames.\n\nBut this works out such that the number of shifts is equal to the clip offset.\n\nNOTE This works with our current design of, just run batches till you run out of footage. But if you were trying to produce a specific run length, then you have to be aware of these overlaps when determining how many clips there would be in total and how much excess in the last clip.\n\nNOTE: We can't compensate for the run time by adding a fraem to the end because LTX, in the current version requires duration intervals of every 8th frame with a 1 frame shift. So we have to shift the start and retain duration, rather than extending the trailing clip to encompass the overlap. \n\nALSO because we are overlapping, this has implications for stitching the video together that are not yet addressed.\n\nWe want to keep clip lengths at ltx supported durations until we are done working with all the data. \n\nOnly then, can we prune redundant first frames all but the first clip. Or in your video editor of choice, you'll need to make sure all the clips overlap by 1 frame and trum the audio accordingly."
       ],
       "color": "#432",
       "bgcolor": "#653"
-    },
-    {
-      "id": 2737,
-      "type": "PrimitiveInt",
-      "pos": [
-        -5460,
-        3910
-      ],
-      "size": [
-        1080,
-        90
-      ],
-      "flags": {},
-      "order": 51,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            5559
-          ]
-        }
-      ],
-      "title": "Clip To Generate This Run as Offset From Clip 0",
-      "properties": {
-        "Node name for S&R": "PrimitiveInt",
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "value": true
-          },
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        25,
-        "increment"
-      ]
     }
   ],
   "links": [
@@ -19703,10 +19674,10 @@
       }
     ],
     "ds": {
-      "scale": 0.20080099994621148,
+      "scale": 0.6932195119356613,
       "offset": [
-        7945.300297188267,
-        -1118.182982112191
+        -798.7096485063281,
+        -2323.66377141931
       ]
     },
     "linkExtensions": [

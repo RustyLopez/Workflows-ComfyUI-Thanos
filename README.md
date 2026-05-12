@@ -18,3 +18,31 @@ I intend to use more from Qwen with their new TTS solutions. Basically, for mult
 diarized transcript to find the speakers words in that space, and clone their voice from regions of the audio where only they are speaking, and use that to
 re-synth the intertwined audio for just their character, so that we can drive just their character's lip sync. Then you can just re-blend the audio in your
 video editor of choice and pick whatever coverage shot you want or use masking to lip sync the different characters in the same frame.
+
+## Other Ideas:
+
+Had another thought. Motion driving my current clip is difficult because the character is in a mech suite with broader shoulders.
+
+I saw some cloud only solutions that can re-proportion a pose model.
+
+It would be nice to generate a pose for your character in a full body neutral position.
+
+And then generate the same for your performance driving actor.
+
+THEN, you can take the diff. And save that as a pose diff.
+
+Then you can take in a batch or list of poses frames, iterate over all of them and apply the diff, and use that to drive the character.
+
+It may also be nice to be able to pass in a camera perspective change. As I've noticed that if the driving animation is really heavily off the starting frame
+camera perspective, then the models will have a lot of trouble reconciling the difference consistently when generating key frames or motion capture video.  So
+ideally your diff could include camera prospective. It could detect the camera offset delta between the two poses, and include that in the diff. Note if we
+train an AI model to do this. We should get the two poses to teh same proportion first. So apply the proportion delta to  the actor image. And then the AI has
+to predict the camera offset. We can train an AI on that pretty simply I think. But also it would be nice.  to get a camera widget you can drag around the pose,
+to try and align it with the character you are animating. Note that you need to also be able to include the field of view and projection matrix, offset from
+camera...etc, not just the orientation.
+
+Now that's great for a static camera. But if you are driving the performance of an adhoc, hand held, selfie cam that is shaking all over the place, then you
+could, take the AI based camera orientation  estimator, but it'd run successively on every frame. The problem is you don't have the characters updated frame to
+compare it to. That's fine though you could take the character's pose, change it to the actors proportions, so the opposite of what we did prior, and then try
+to predict the projection matrix changes needed to get the character, into the actors updated camera position. And then simply negate that, to re-project the
+driving animation for the next frame of animation.
