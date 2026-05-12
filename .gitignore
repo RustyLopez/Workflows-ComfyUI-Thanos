@@ -58,7 +58,7 @@ build/
 .vscode/
 
 
-# *.png
+*.png
 *.jpg
 *.jpeg
 *.gif
