@@ -1,8 +1,8 @@
 {
   "id": "ea3e4f91-eeb3-49c3-ba36-522152f909f1",
   "revision": 0,
-  "last_node_id": 2908,
-  "last_link_id": 5797,
+  "last_node_id": 2909,
+  "last_link_id": 5801,
   "nodes": [
     {
       "id": 1250,
@@ -154,7 +154,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 54,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -201,7 +201,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 70,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -288,7 +288,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 55,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -335,7 +335,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 57,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -382,7 +382,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 56,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -545,7 +545,7 @@
         60
       ],
       "flags": {},
-      "order": 58,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -630,7 +630,7 @@
         90
       ],
       "flags": {},
-      "order": 60,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -724,7 +724,7 @@
         60
       ],
       "flags": {},
-      "order": 59,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -849,7 +849,7 @@
         90
       ],
       "flags": {},
-      "order": 85,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -896,7 +896,7 @@
         90
       ],
       "flags": {},
-      "order": 73,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -950,7 +950,7 @@
         90
       ],
       "flags": {},
-      "order": 100,
+      "order": 97,
       "mode": 0,
       "inputs": [
         {
@@ -999,7 +999,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 92,
+      "order": 90,
       "mode": 0,
       "inputs": [
         {
@@ -1084,7 +1084,7 @@
         90
       ],
       "flags": {},
-      "order": 96,
+      "order": 94,
       "mode": 0,
       "inputs": [
         {
@@ -1140,7 +1140,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 103,
+      "order": 99,
       "mode": 0,
       "inputs": [
         {
@@ -1408,7 +1408,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 61,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1455,7 +1455,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 53,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1542,7 +1542,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 74,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -1587,7 +1587,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 77,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -1802,7 +1802,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 78,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -1847,7 +1847,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 80,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -1932,7 +1932,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 91,
+      "order": 89,
       "mode": 0,
       "inputs": [
         {
@@ -1977,7 +1977,7 @@
         210
       ],
       "flags": {},
-      "order": 75,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -2062,7 +2062,7 @@
         60
       ],
       "flags": {},
-      "order": 86,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -2189,7 +2189,7 @@
         523
       ],
       "flags": {},
-      "order": 65,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -2510,7 +2510,7 @@
         60
       ],
       "flags": {},
-      "order": 63,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -2641,7 +2641,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 76,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -2686,7 +2686,7 @@
         1420
       ],
       "flags": {},
-      "order": 62,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -2975,7 +2975,7 @@
         1530
       ],
       "flags": {},
-      "order": 64,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -3124,7 +3124,7 @@
         270
       ],
       "flags": {},
-      "order": 87,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -3244,7 +3244,7 @@
         60
       ],
       "flags": {},
-      "order": 68,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -3289,7 +3289,7 @@
         60
       ],
       "flags": {},
-      "order": 66,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -3334,7 +3334,7 @@
         200
       ],
       "flags": {},
-      "order": 82,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -3392,7 +3392,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 89,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -3435,7 +3435,7 @@
         200
       ],
       "flags": {},
-      "order": 90,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -3482,7 +3482,7 @@
         60
       ],
       "flags": {},
-      "order": 95,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -3565,7 +3565,7 @@
         60
       ],
       "flags": {},
-      "order": 81,
+      "order": 79,
       "mode": 0,
       "inputs": [
         {
@@ -3610,7 +3610,7 @@
         200
       ],
       "flags": {},
-      "order": 88,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -3666,7 +3666,7 @@
         60
       ],
       "flags": {},
-      "order": 69,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -3711,7 +3711,7 @@
         90
       ],
       "flags": {},
-      "order": 67,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -3800,7 +3800,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 93,
+      "order": 91,
       "mode": 0,
       "inputs": [
         {
@@ -3872,7 +3872,7 @@
         60
       ],
       "flags": {},
-      "order": 97,
+      "order": 95,
       "mode": 0,
       "inputs": [
         {
@@ -3933,61 +3933,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 2875,
-      "type": "GetFilenameByIndexInFolder|LP",
-      "pos": [
-        -3610,
-        4010
-      ],
-      "size": [
-        480,
-        160
-      ],
-      "flags": {},
-      "order": 101,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "patterns",
-          "type": "STRING",
-          "widget": {
-            "name": "patterns"
-          },
-          "link": 5739
-        }
-      ],
-      "outputs": [
-        {
-          "name": "full_filename",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "filename",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "extension",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GetFilenameByIndexInFolder|LP",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "/SwarmUI/dlbackend/ComfyUI/output",
-        0,
-        "*"
-      ]
-    },
-    {
       "id": 2857,
       "type": "Note",
       "pos": [
@@ -4028,13 +3973,13 @@
         60
       ],
       "flags": {},
-      "order": 111,
+      "order": 100,
       "mode": 0,
       "inputs": [
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "link": 5781
+          "link": 5800
         }
       ],
       "outputs": [
@@ -4062,134 +4007,6 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 2878,
-      "type": "Basic data handling: PathGlob",
-      "pos": [
-        -3090,
-        4150
-      ],
-      "size": [
-        270,
-        90
-      ],
-      "flags": {},
-      "order": 102,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "pattern",
-          "type": "STRING",
-          "widget": {
-            "name": "pattern"
-          },
-          "link": 5745
-        }
-      ],
-      "outputs": [
-        {
-          "name": "matching paths",
-          "shape": 6,
-          "type": "STRING",
-          "links": [
-            5765,
-            5768
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: PathGlob",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "*.txt",
-        false
-      ]
-    },
-    {
-      "id": 2887,
-      "type": "Basic data handling: DataListLength",
-      "pos": [
-        -3130,
-        4380
-      ],
-      "size": [
-        140,
-        30
-      ],
-      "flags": {},
-      "order": 104,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "*",
-          "link": 5765
-        }
-      ],
-      "outputs": [
-        {
-          "name": "length",
-          "type": "INT",
-          "links": [
-            5766
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: DataListLength",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 2889,
-      "type": "Basic data handling: DataListLast",
-      "pos": [
-        -2770,
-        4150
-      ],
-      "size": [
-        140,
-        30
-      ],
-      "flags": {},
-      "order": 105,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "*",
-          "link": 5768
-        }
-      ],
-      "outputs": [
-        {
-          "name": "last_element",
-          "type": "*",
-          "links": [
-            5769
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: DataListLast",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
-    },
-    {
       "id": 2856,
       "type": "StringConcatenate",
       "pos": [
@@ -4201,7 +4018,7 @@
         200
       ],
       "flags": {},
-      "order": 98,
+      "order": 96,
       "mode": 0,
       "inputs": [
         {
@@ -4218,8 +4035,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            5739,
-            5745
+            5798
           ]
         }
       ],
@@ -4238,51 +4054,6 @@
       ]
     },
     {
-      "id": 2888,
-      "type": "IntToBool|LP",
-      "pos": [
-        -2940,
-        4350
-      ],
-      "size": [
-        270,
-        60
-      ],
-      "flags": {},
-      "order": 106,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "int",
-          "type": "INT",
-          "widget": {
-            "name": "int"
-          },
-          "link": 5766
-        }
-      ],
-      "outputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "links": [
-            5767
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "IntToBool|LP",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        0
-      ]
-    },
-    {
       "id": 2851,
       "type": "StringConcatenate",
       "pos": [
@@ -4294,7 +4065,7 @@
         200
       ],
       "flags": {},
-      "order": 94,
+      "order": 92,
       "mode": 0,
       "inputs": [
         {
@@ -4313,7 +4084,7 @@
           "links": [
             5718,
             5724,
-            5780
+            5799
           ]
         }
       ],
@@ -4332,143 +4103,6 @@
       ]
     },
     {
-      "id": 2900,
-      "type": "PreviewImage",
-      "pos": [
-        -2170,
-        4420
-      ],
-      "size": [
-        220,
-        250
-      ],
-      "flags": {},
-      "order": 112,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 5787
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "PreviewImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 2899,
-      "type": "ConsoleDebug+",
-      "pos": [
-        -1880,
-        4390
-      ],
-      "size": [
-        270,
-        60
-      ],
-      "flags": {},
-      "order": 113,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "value",
-          "type": "*",
-          "link": 5784
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "ConsoleDebug+",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "Prior Exists"
-      ]
-    },
-    {
-      "id": 2901,
-      "type": "PreviewAny",
-      "pos": [
-        -1880,
-        4540
-      ],
-      "size": [
-        210,
-        170
-      ],
-      "flags": {},
-      "order": 109,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "source",
-          "type": "*",
-          "link": 5789
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewAny",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": 2871,
-      "type": "Note",
-      "pos": [
-        -1560,
-        4520
-      ],
-      "size": [
-        310,
-        180
-      ],
-      "flags": {},
-      "order": 45,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "k idk how to do this without a ocntorl bridsge\n\ntehr maby a wayt but ..  it s'osf uckign aobnoxuao nd i've spent way tomo cutghtei \n\nJKSUTR LOAD TTHE FARACKING FILE IFI TI FRACKING EXISTS OKAYH "
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 2840,
       "type": "Basic data handling: DataListLast",
       "pos": [
@@ -4480,7 +4114,7 @@
         30
       ],
       "flags": {},
-      "order": 79,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -4509,132 +4143,6 @@
       "widgets_values": []
     },
     {
-      "id": 2902,
-      "type": "Note",
-      "pos": [
-        -3590,
-        4470
-      ],
-      "size": [
-        350,
-        300
-      ],
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "Note if the above fails, \nthis will not exist\nBut I've not found a good way to return \"none\", and it's difficult to completely disable a branch without some hacky nodes, so we have to emit something and we have to test it. \n\nThankfuly there is an image loader node that wont' break ( surprisingly rare.... ) , if the file doesn't exist.\n\nBut basically we want to test the path we'd expect to find it at if it did exist as a fallback.\n\nNOT sure why the iamge saves get another trailing underscore... But the do\n\nOh may be because it.. was saved from an image batch.\n\nLet' sfi that.\n\nNope.. already had reduced the batch to a single. \n\nThe thing is tnhe node can't assume it's getting a single. \n\nSo yeah idk.\n\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 2895,
-      "type": "Basic data handling: PathLoadImageRGB",
-      "pos": [
-        -2210,
-        4210
-      ],
-      "size": [
-        280,
-        80
-      ],
-      "flags": {},
-      "order": 108,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "path",
-          "type": "STRING",
-          "widget": {
-            "name": "path"
-          },
-          "link": 5778
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            5781,
-            5787
-          ]
-        },
-        {
-          "name": "exists",
-          "type": "BOOLEAN",
-          "links": [
-            5784,
-            5792
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: PathLoadImageRGB",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 2904,
-      "type": "SetNode",
-      "pos": [
-        -1650,
-        4120
-      ],
-      "size": [
-        250,
-        60
-      ],
-      "flags": {},
-      "order": 114,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "link": 5792
-        }
-      ],
-      "outputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "links": null
-        }
-      ],
-      "title": "Set_prior_clip_last_frame_exists",
-      "properties": {
-        "Node name for S&R": "SetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "previousName": "prior_clip_last_frame_exists",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "prior_clip_last_frame_exists"
-      ]
-    },
-    {
       "id": 2867,
       "type": "easy ifElse",
       "pos": [
@@ -4646,7 +4154,7 @@
         80
       ],
       "flags": {},
-      "order": 71,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -4702,7 +4210,7 @@
         60
       ],
       "flags": {},
-      "order": 47,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4740,7 +4248,7 @@
         60
       ],
       "flags": {},
-      "order": 48,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4780,7 +4288,7 @@
         2080
       ],
       "flags": {},
-      "order": 83,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -4941,7 +4449,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 49,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4981,7 +4489,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5021,7 +4529,7 @@
         90
       ],
       "flags": {},
-      "order": 51,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5050,154 +4558,6 @@
       ]
     },
     {
-      "id": 2896,
-      "type": "StringConcatenate",
-      "pos": [
-        -3200,
-        4530
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 99,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string_a",
-          "type": "STRING",
-          "widget": {
-            "name": "string_a"
-          },
-          "link": 5780
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            5779
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "StringConcatenate",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "",
-        "00001_.png",
-        "_"
-      ]
-    },
-    {
-      "id": 2884,
-      "type": "Basic data handling: IfElse",
-      "pos": [
-        -2530,
-        4180
-      ],
-      "size": [
-        270,
-        80
-      ],
-      "flags": {},
-      "order": 107,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "if_true",
-          "type": "*",
-          "link": 5769
-        },
-        {
-          "name": "if_false",
-          "type": "*",
-          "link": 5779
-        },
-        {
-          "name": "condition",
-          "type": "BOOLEAN",
-          "widget": {
-            "name": "condition"
-          },
-          "link": 5767
-        }
-      ],
-      "outputs": [
-        {
-          "name": "result",
-          "type": "*",
-          "links": [
-            5778,
-            5789,
-            5796
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: IfElse",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        false
-      ]
-    },
-    {
-      "id": 2907,
-      "type": "Basic data handling: PathRelative",
-      "pos": [
-        -2620,
-        4410
-      ],
-      "size": [
-        380,
-        120
-      ],
-      "flags": {},
-      "order": 110,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "path",
-          "type": "STRING",
-          "widget": {
-            "name": "path"
-          },
-          "link": 5796
-        }
-      ],
-      "outputs": [
-        {
-          "name": "relative path",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Basic data handling: PathRelative",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "",
-        "/SwarmUI/dlbackend/ComfyUI/output"
-      ]
-    },
-    {
       "id": 2882,
       "type": "GetNode",
       "pos": [
@@ -5209,7 +4569,7 @@
         60
       ],
       "flags": {},
-      "order": 52,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5250,7 +4610,7 @@
         250
       ],
       "flags": {},
-      "order": 84,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -5282,7 +4642,7 @@
         270
       ],
       "flags": {},
-      "order": 72,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -5293,12 +4653,128 @@
       ],
       "outputs": [],
       "properties": {
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 2904,
+      "type": "SetNode",
+      "pos": [
+        -1970,
+        4220
+      ],
+      "size": [
+        250,
+        60
+      ],
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "link": 5801
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "links": null
+        }
+      ],
+      "title": "Set_prior_clip_last_frame_exists",
+      "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "previousName": "prior_clip_last_frame_exists",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "prior_clip_last_frame_exists"
+      ]
+    },
+    {
+      "id": 2909,
+      "type": "c9505ac0-c5d4-416f-a896-4aa9c6ee1e00",
+      "pos": [
+        -2540,
+        4150
+      ],
+      "size": [
+        410,
+        140
+      ],
+      "flags": {},
+      "order": 98,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pattern",
+          "type": "STRING",
+          "widget": {
+            "name": "pattern"
+          },
+          "link": 5798
+        },
+        {
+          "name": "string_a",
+          "type": "STRING",
+          "widget": {
+            "name": "string_a"
+          },
+          "link": 5799
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            5800
+          ]
+        },
+        {
+          "name": "exists",
+          "type": "BOOLEAN",
+          "links": [
+            5801
+          ]
+        }
+      ],
+      "title": "Load Prior Clip Last Frame If Exists",
+      "properties": {
+        "proxyWidgets": [
+          [
+            "2878",
+            "pattern"
+          ],
+          [
+            "2896",
+            "string_a"
+          ],
+          [
+            "2900",
+            "$$canvas-image-preview"
+          ]
+        ],
         "ue_properties": {
           "widget_ue_connectable": {},
           "input_ue_unconnectable": {}
-        },
-        "Node name for S&R": "PreviewImage"
-      }
+        }
+      },
+      "widgets_values": []
     }
   ],
   "links": [
@@ -5887,132 +5363,12 @@
       "IMAGE"
     ],
     [
-      5739,
-      2856,
-      0,
-      2875,
-      0,
-      "STRING"
-    ],
-    [
-      5745,
-      2856,
-      0,
-      2878,
-      0,
-      "STRING"
-    ],
-    [
       5753,
       2882,
       0,
       2867,
       1,
       "*"
-    ],
-    [
-      5765,
-      2878,
-      0,
-      2887,
-      0,
-      "STRING"
-    ],
-    [
-      5766,
-      2887,
-      0,
-      2888,
-      0,
-      "INT"
-    ],
-    [
-      5767,
-      2888,
-      0,
-      2884,
-      2,
-      "BOOLEAN"
-    ],
-    [
-      5768,
-      2878,
-      0,
-      2889,
-      0,
-      "STRING"
-    ],
-    [
-      5769,
-      2889,
-      0,
-      2884,
-      0,
-      "*"
-    ],
-    [
-      5778,
-      2884,
-      0,
-      2895,
-      0,
-      "STRING"
-    ],
-    [
-      5779,
-      2896,
-      0,
-      2884,
-      1,
-      "STRING"
-    ],
-    [
-      5780,
-      2851,
-      0,
-      2896,
-      0,
-      "STRING"
-    ],
-    [
-      5781,
-      2895,
-      0,
-      2863,
-      0,
-      "IMAGE"
-    ],
-    [
-      5784,
-      2895,
-      1,
-      2899,
-      0,
-      "BOOLEAN"
-    ],
-    [
-      5787,
-      2895,
-      0,
-      2900,
-      0,
-      "IMAGE"
-    ],
-    [
-      5789,
-      2884,
-      0,
-      2901,
-      0,
-      "*"
-    ],
-    [
-      5792,
-      2895,
-      1,
-      2904,
-      0,
-      "BOOLEAN"
     ],
     [
       5793,
@@ -6031,20 +5387,44 @@
       "IMAGE"
     ],
     [
-      5796,
-      2884,
-      0,
-      2907,
-      0,
-      "STRING"
-    ],
-    [
       5797,
       2882,
       0,
       2908,
       0,
       "IMAGE"
+    ],
+    [
+      5798,
+      2856,
+      0,
+      2909,
+      0,
+      "STRING"
+    ],
+    [
+      5799,
+      2851,
+      0,
+      2909,
+      1,
+      "STRING"
+    ],
+    [
+      5800,
+      2909,
+      0,
+      2863,
+      0,
+      "IMAGE"
+    ],
+    [
+      5801,
+      2909,
+      1,
+      2904,
+      0,
+      "BOOLEAN"
     ]
   ],
   "groups": [
@@ -6186,8 +5566,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -11452,8 +10832,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -11778,8 +11158,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -12373,8 +11753,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -13003,8 +12383,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -15022,8 +14402,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -16638,8 +16018,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -18025,8 +17405,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2908,
-          "lastLinkId": 5797,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -19028,6 +18408,784 @@
           "ue_links": [],
           "links_added_by_ue": []
         }
+      },
+      {
+        "id": "c9505ac0-c5d4-416f-a896-4aa9c6ee1e00",
+        "version": 1,
+        "state": {
+          "lastGroupId": 69,
+          "lastNodeId": 2909,
+          "lastLinkId": 5801,
+          "lastRerouteId": 24
+        },
+        "revision": 0,
+        "config": {},
+        "name": "Load Prior Clip Last Frame If Exists",
+        "inputNode": {
+          "id": -10,
+          "bounding": [
+            -3770,
+            4405,
+            120,
+            80
+          ]
+        },
+        "outputNode": {
+          "id": -20,
+          "bounding": [
+            -1190,
+            4405,
+            120,
+            80
+          ]
+        },
+        "inputs": [
+          {
+            "id": "0ab59b80-0d6a-4cd2-8a92-827e03f624b7",
+            "name": "pattern",
+            "type": "STRING",
+            "linkIds": [
+              5745
+            ],
+            "localized_name": "pattern",
+            "pos": [
+              55,
+              20
+            ]
+          },
+          {
+            "id": "16e18617-b2be-4ac5-9b5c-f1a0bc13011c",
+            "name": "string_a",
+            "type": "STRING",
+            "linkIds": [
+              5780
+            ],
+            "localized_name": "string_a",
+            "pos": [
+              55,
+              40
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "id": "3f923f7a-346f-4513-af54-87cc58cc5e78",
+            "name": "image",
+            "type": "IMAGE",
+            "linkIds": [
+              5781
+            ],
+            "localized_name": "image",
+            "pos": [
+              20,
+              20
+            ]
+          },
+          {
+            "id": "fab294f7-a497-41c1-923d-beee08dc2b6d",
+            "name": "exists",
+            "type": "BOOLEAN",
+            "linkIds": [
+              5792
+            ],
+            "localized_name": "exists",
+            "pos": [
+              20,
+              40
+            ]
+          }
+        ],
+        "widgets": [],
+        "nodes": [
+          {
+            "id": 2878,
+            "type": "Basic data handling: PathGlob",
+            "pos": [
+              -3090,
+              4150
+            ],
+            "size": [
+              270,
+              90
+            ],
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "pattern",
+                "name": "pattern",
+                "type": "STRING",
+                "widget": {
+                  "name": "pattern"
+                },
+                "link": 5745
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "matching paths",
+                "name": "matching paths",
+                "shape": 6,
+                "type": "STRING",
+                "links": [
+                  5765,
+                  5768
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: PathGlob"
+            },
+            "widgets_values": [
+              "*.txt",
+              false
+            ]
+          },
+          {
+            "id": 2889,
+            "type": "Basic data handling: DataListLast",
+            "pos": [
+              -2770,
+              4150
+            ],
+            "size": [
+              140,
+              30
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "list",
+                "name": "list",
+                "type": "*",
+                "link": 5768
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "last_element",
+                "name": "last_element",
+                "type": "*",
+                "links": [
+                  5769
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: DataListLast"
+            },
+            "widgets_values": []
+          },
+          {
+            "id": 2887,
+            "type": "Basic data handling: DataListLength",
+            "pos": [
+              -3130,
+              4380
+            ],
+            "size": [
+              140,
+              30
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "list",
+                "name": "list",
+                "type": "*",
+                "link": 5765
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "length",
+                "name": "length",
+                "type": "INT",
+                "links": [
+                  5766
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: DataListLength"
+            },
+            "widgets_values": []
+          },
+          {
+            "id": 2888,
+            "type": "IntToBool|LP",
+            "pos": [
+              -2940,
+              4350
+            ],
+            "size": [
+              270,
+              60
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "int",
+                "name": "int",
+                "type": "INT",
+                "widget": {
+                  "name": "int"
+                },
+                "link": 5766
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "BOOLEAN",
+                "name": "BOOLEAN",
+                "type": "BOOLEAN",
+                "links": [
+                  5767
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "IntToBool|LP"
+            },
+            "widgets_values": [
+              0
+            ]
+          },
+          {
+            "id": 2884,
+            "type": "Basic data handling: IfElse",
+            "pos": [
+              -2530,
+              4180
+            ],
+            "size": [
+              270,
+              80
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "if_true",
+                "name": "if_true",
+                "type": "*",
+                "link": 5769
+              },
+              {
+                "localized_name": "if_false",
+                "name": "if_false",
+                "type": "*",
+                "link": 5779
+              },
+              {
+                "localized_name": "condition",
+                "name": "condition",
+                "type": "BOOLEAN",
+                "widget": {
+                  "name": "condition"
+                },
+                "link": 5767
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "result",
+                "name": "result",
+                "type": "*",
+                "links": [
+                  5778,
+                  5789,
+                  5796
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: IfElse"
+            },
+            "widgets_values": [
+              false
+            ]
+          },
+          {
+            "id": 2896,
+            "type": "StringConcatenate",
+            "pos": [
+              -3200,
+              4530
+            ],
+            "size": [
+              400,
+              200
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "string_a",
+                "name": "string_a",
+                "type": "STRING",
+                "widget": {
+                  "name": "string_a"
+                },
+                "link": 5780
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "STRING",
+                "name": "STRING",
+                "type": "STRING",
+                "links": [
+                  5779
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "StringConcatenate"
+            },
+            "widgets_values": [
+              "",
+              "00001_.png",
+              "_"
+            ]
+          },
+          {
+            "id": 2907,
+            "type": "Basic data handling: PathRelative",
+            "pos": [
+              -2620,
+              4410
+            ],
+            "size": [
+              380,
+              120
+            ],
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "path",
+                "name": "path",
+                "type": "STRING",
+                "widget": {
+                  "name": "path"
+                },
+                "link": 5796
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "relative path",
+                "name": "relative path",
+                "type": "STRING",
+                "links": null
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: PathRelative"
+            },
+            "widgets_values": [
+              "",
+              "/SwarmUI/dlbackend/ComfyUI/output"
+            ]
+          },
+          {
+            "id": 2900,
+            "type": "PreviewImage",
+            "pos": [
+              -2170,
+              4420
+            ],
+            "size": [
+              220,
+              250
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "images",
+                "name": "images",
+                "type": "IMAGE",
+                "link": 5787
+              }
+            ],
+            "outputs": [],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "PreviewImage"
+            },
+            "widgets_values": []
+          },
+          {
+            "id": 2901,
+            "type": "PreviewAny",
+            "pos": [
+              -1880,
+              4540
+            ],
+            "size": [
+              210,
+              170
+            ],
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "source",
+                "name": "source",
+                "type": "*",
+                "link": 5789
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "STRING",
+                "name": "STRING",
+                "type": "STRING",
+                "links": null
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "PreviewAny"
+            },
+            "widgets_values": [
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "id": 2899,
+            "type": "ConsoleDebug+",
+            "pos": [
+              -1880,
+              4390
+            ],
+            "size": [
+              270,
+              60
+            ],
+            "flags": {},
+            "order": 9,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "value",
+                "name": "value",
+                "type": "*",
+                "link": 5784
+              }
+            ],
+            "outputs": [],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "ConsoleDebug+"
+            },
+            "widgets_values": [
+              "Prior Exists"
+            ]
+          },
+          {
+            "id": 2895,
+            "type": "Basic data handling: PathLoadImageRGB",
+            "pos": [
+              -2210,
+              4210
+            ],
+            "size": [
+              280,
+              80
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "path",
+                "name": "path",
+                "type": "STRING",
+                "widget": {
+                  "name": "path"
+                },
+                "link": 5778
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "image",
+                "name": "image",
+                "type": "IMAGE",
+                "links": [
+                  5781,
+                  5787
+                ]
+              },
+              {
+                "localized_name": "exists",
+                "name": "exists",
+                "type": "BOOLEAN",
+                "links": [
+                  5784,
+                  5792
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: PathLoadImageRGB"
+            },
+            "widgets_values": [
+              ""
+            ]
+          },
+          {
+            "id": 2871,
+            "type": "Note",
+            "pos": [
+              -1560,
+              4520
+            ],
+            "size": [
+              310,
+              180
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "version": "7.8",
+                "input_ue_unconnectable": {}
+              }
+            },
+            "widgets_values": [
+              "k idk how to do this without a ocntorl bridsge\n\ntehr maby a wayt but ..  it s'osf uckign aobnoxuao nd i've spent way tomo cutghtei \n\nJKSUTR LOAD TTHE FARACKING FILE IFI TI FRACKING EXISTS OKAYH "
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+          },
+          {
+            "id": 2902,
+            "type": "Note",
+            "pos": [
+              -3590,
+              4470
+            ],
+            "size": [
+              350,
+              300
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "version": "7.8",
+                "input_ue_unconnectable": {}
+              }
+            },
+            "widgets_values": [
+              "Note if the above fails, \nthis will not exist\nBut I've not found a good way to return \"none\", and it's difficult to completely disable a branch without some hacky nodes, so we have to emit something and we have to test it. \n\nThankfuly there is an image loader node that wont' break ( surprisingly rare.... ) , if the file doesn't exist.\n\nBut basically we want to test the path we'd expect to find it at if it did exist as a fallback.\n\nNOT sure why the iamge saves get another trailing underscore... But the do\n\nOh may be because it.. was saved from an image batch.\n\nLet' sfi that.\n\nNope.. already had reduced the batch to a single. \n\nThe thing is tnhe node can't assume it's getting a single. \n\nSo yeah idk.\n\n"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+          }
+        ],
+        "groups": [],
+        "links": [
+          {
+            "id": 5768,
+            "origin_id": 2878,
+            "origin_slot": 0,
+            "target_id": 2889,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5765,
+            "origin_id": 2878,
+            "origin_slot": 0,
+            "target_id": 2887,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5766,
+            "origin_id": 2887,
+            "origin_slot": 0,
+            "target_id": 2888,
+            "target_slot": 0,
+            "type": "INT"
+          },
+          {
+            "id": 5769,
+            "origin_id": 2889,
+            "origin_slot": 0,
+            "target_id": 2884,
+            "target_slot": 0,
+            "type": "*"
+          },
+          {
+            "id": 5779,
+            "origin_id": 2896,
+            "origin_slot": 0,
+            "target_id": 2884,
+            "target_slot": 1,
+            "type": "STRING"
+          },
+          {
+            "id": 5767,
+            "origin_id": 2888,
+            "origin_slot": 0,
+            "target_id": 2884,
+            "target_slot": 2,
+            "type": "BOOLEAN"
+          },
+          {
+            "id": 5796,
+            "origin_id": 2884,
+            "origin_slot": 0,
+            "target_id": 2907,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5787,
+            "origin_id": 2895,
+            "origin_slot": 0,
+            "target_id": 2900,
+            "target_slot": 0,
+            "type": "IMAGE"
+          },
+          {
+            "id": 5789,
+            "origin_id": 2884,
+            "origin_slot": 0,
+            "target_id": 2901,
+            "target_slot": 0,
+            "type": "*"
+          },
+          {
+            "id": 5784,
+            "origin_id": 2895,
+            "origin_slot": 1,
+            "target_id": 2899,
+            "target_slot": 0,
+            "type": "BOOLEAN"
+          },
+          {
+            "id": 5778,
+            "origin_id": 2884,
+            "origin_slot": 0,
+            "target_id": 2895,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5745,
+            "origin_id": -10,
+            "origin_slot": 0,
+            "target_id": 2878,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5780,
+            "origin_id": -10,
+            "origin_slot": 1,
+            "target_id": 2896,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5781,
+            "origin_id": 2895,
+            "origin_slot": 0,
+            "target_id": -20,
+            "target_slot": 0,
+            "type": "IMAGE"
+          },
+          {
+            "id": 5792,
+            "origin_id": 2895,
+            "origin_slot": 1,
+            "target_id": -20,
+            "target_slot": 1,
+            "type": "BOOLEAN"
+          }
+        ],
+        "extra": {}
       }
     ]
   },
@@ -19446,10 +19604,10 @@
       }
     ],
     "ds": {
-      "scale": 0.693219511935642,
+      "scale": 0.20080099994620768,
       "offset": [
-        2885.68339961669,
-        -3634.3751121271534
+        6899.139472335443,
+        -1505.9771926222418
       ]
     },
     "linkExtensions": [
