@@ -1,8 +1,8 @@
 {
   "id": "ea3e4f91-eeb3-49c3-ba36-522152f909f1",
   "revision": 0,
-  "last_node_id": 2909,
-  "last_link_id": 5801,
+  "last_node_id": 2911,
+  "last_link_id": 5810,
   "nodes": [
     {
       "id": 1250,
@@ -201,7 +201,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 68,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -2274,13 +2274,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "20_322737872210006_00001-audio.mp4",
+            "filename": "21_322737872210006_00002-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 29.970029970029966,
-            "workflow": "20_322737872210006_00001.png",
-            "fullpath": "/SwarmUI/dlbackend/ComfyUI/output/20_322737872210006_00001-audio.mp4"
+            "workflow": "21_322737872210006_00002.png",
+            "fullpath": "/SwarmUI/dlbackend/ComfyUI/output/21_322737872210006_00002-audio.mp4"
           }
         }
       }
@@ -2673,131 +2673,6 @@
       ],
       "color": "#2a363b",
       "bgcolor": "#3f5159"
-    },
-    {
-      "id": 2144,
-      "type": "665ab189-027d-4c69-be7f-95fbc5cc5c07",
-      "pos": [
-        -1300,
-        2460
-      ],
-      "size": [
-        320,
-        1420
-      ],
-      "flags": {},
-      "order": 60,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video",
-          "type": "STRING",
-          "widget": {
-            "name": "video"
-          },
-          "link": 5610
-        },
-        {
-          "name": "frame_load_cap",
-          "type": "INT",
-          "widget": {
-            "name": "frame_load_cap"
-          },
-          "link": 5603
-        },
-        {
-          "name": "skip_first_frames",
-          "type": "INT",
-          "widget": {
-            "name": "skip_first_frames"
-          },
-          "link": 5608
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "link": 5567
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "link": 5571
-        }
-      ],
-      "outputs": [
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "links": [
-            5615
-          ]
-        },
-        {
-          "name": "video_info",
-          "type": "VHS_VIDEOINFO",
-          "links": [
-            5651
-          ]
-        },
-        {
-          "label": "keyframe_mocap_frames",
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            5617
-          ]
-        },
-        {
-          "label": "all_mocap_frames",
-          "name": "IMAGE_1",
-          "type": "IMAGE",
-          "links": [
-            5619
-          ]
-        }
-      ],
-      "properties": {
-        "proxyWidgets": [
-          [
-            "991",
-            "video"
-          ],
-          [
-            "991",
-            "frame_load_cap"
-          ],
-          [
-            "991",
-            "skip_first_frames"
-          ],
-          [
-            "2624",
-            "detect_hand"
-          ],
-          [
-            "2624",
-            "detect_body"
-          ],
-          [
-            "2624",
-            "detect_face"
-          ],
-          [
-            "991",
-            "videopreview"
-          ]
-        ],
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "video": true,
-            "frame_load_cap": true,
-            "skip_first_frames": true
-          },
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
     },
     {
       "id": 2796,
@@ -3904,35 +3779,6 @@
       ]
     },
     {
-      "id": 2869,
-      "type": "Note",
-      "pos": [
-        -1630,
-        1900
-      ],
-      "size": [
-        910,
-        430
-      ],
-      "flags": {},
-      "order": 43,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "OF NOTE we relaly nee dot overlap by one frame though.. if we are odin ghits \n\nwhci hican do evne ith the offsets in clip duraiton  from lt.x\n\ni cn ajust make sure ot subtracst.. baiscall subtract as many frames form teh media start as is in our clip offset\n\nand you basiclal y i dn tvoe to do anylo0gic you basically keep running it until it can’t read frames….. ithinkk\n\nit may loop.. lol \n\nso idk\n\nwe may ahve ot do o somes math and fail the job\n\nbut that math ahs to account of the fact hat we are offsetting by “n” frames. ( clip offset )\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 2857,
       "type": "Note",
       "pos": [
@@ -3944,7 +3790,7 @@
         180
       ],
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4143,18 +3989,480 @@
       "widgets_values": []
     },
     {
+      "id": 2905,
+      "type": "GetNode",
+      "pos": [
+        670,
+        3460
+      ],
+      "size": [
+        260,
+        60
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "links": [
+            5793
+          ]
+        }
+      ],
+      "title": "Get_prior_clip_last_frame_exists",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "prior_clip_last_frame_exists"
+      ]
+    },
+    {
+      "id": 2865,
+      "type": "GetNode",
+      "pos": [
+        680,
+        3330
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            5794
+          ]
+        }
+      ],
+      "title": "Get_prior_clip_last_frame",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "prior_clip_last_frame"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 2786,
+      "type": "GetNode",
+      "pos": [
+        720,
+        2480
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 46,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            5616
+          ]
+        }
+      ],
+      "title": "Get_audio",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "audio"
+      ]
+    },
+    {
+      "id": 2790,
+      "type": "GetNode",
+      "pos": [
+        850,
+        2530
+      ],
+      "size": [
+        220,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 47,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            5620
+          ]
+        }
+      ],
+      "title": "Get_mocap_clip_all_frames",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "mocap_clip_all_frames"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 2882,
+      "type": "GetNode",
+      "pos": [
+        670,
+        3590
+      ],
+      "size": [
+        230,
+        60
+      ],
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            5753,
+            5797
+          ]
+        }
+      ],
+      "title": "Get_input_media_ref_image",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "input_media_ref_image"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 2868,
+      "type": "PreviewImage",
+      "pos": [
+        920,
+        3710
+      ],
+      "size": [
+        280,
+        250
+      ],
+      "flags": {},
+      "order": 82,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 5734
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 2908,
+      "type": "PreviewImage",
+      "pos": [
+        890,
+        4030
+      ],
+      "size": [
+        320,
+        270
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 5797
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 2904,
+      "type": "SetNode",
+      "pos": [
+        -1970,
+        4220
+      ],
+      "size": [
+        250,
+        60
+      ],
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "link": 5801
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "links": null
+        }
+      ],
+      "title": "Set_prior_clip_last_frame_exists",
+      "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "previousName": "prior_clip_last_frame_exists",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "prior_clip_last_frame_exists"
+      ]
+    },
+    {
+      "id": 2144,
+      "type": "665ab189-027d-4c69-be7f-95fbc5cc5c07",
+      "pos": [
+        -1300,
+        2460
+      ],
+      "size": [
+        320,
+        1420
+      ],
+      "flags": {},
+      "order": 60,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "STRING",
+          "widget": {
+            "name": "video"
+          },
+          "link": 5610
+        },
+        {
+          "name": "frame_load_cap",
+          "type": "INT",
+          "widget": {
+            "name": "frame_load_cap"
+          },
+          "link": 5603
+        },
+        {
+          "name": "skip_first_frames",
+          "type": "INT",
+          "widget": {
+            "name": "skip_first_frames"
+          },
+          "link": 5608
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 5567
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 5571
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            5615
+          ]
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": [
+            5651
+          ]
+        },
+        {
+          "label": "keyframe_mocap_frames",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            5617
+          ]
+        },
+        {
+          "label": "all_mocap_frames",
+          "name": "IMAGE_1",
+          "type": "IMAGE",
+          "links": [
+            5619
+          ]
+        }
+      ],
+      "properties": {
+        "proxyWidgets": [
+          [
+            "991",
+            "video"
+          ],
+          [
+            "991",
+            "frame_load_cap"
+          ],
+          [
+            "991",
+            "skip_first_frames"
+          ],
+          [
+            "2624",
+            "detect_hand"
+          ],
+          [
+            "2624",
+            "detect_body"
+          ],
+          [
+            "2624",
+            "detect_face"
+          ],
+          [
+            "991",
+            "videopreview"
+          ]
+        ],
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "video": true,
+            "frame_load_cap": true,
+            "skip_first_frames": true
+          },
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 2869,
+      "type": "Note",
+      "pos": [
+        -1630,
+        1900
+      ],
+      "size": [
+        910,
+        430
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "OF NOTE we relaly nee dot overlap by one frame though.. if we are odin ghits \n\nwhci hican do evne ith the offsets in clip duraiton  from lt.x\n\ni cn ajust make sure ot subtracst.. baiscall subtract as many frames form teh media start as is in our clip offset\n\nand you basiclal y i dn tvoe to do anylo0gic you basically keep running it until it can’t read frames….. ithinkk\n\nit may loop.. lol \n\nso idk\n\nwe may ahve ot do o somes math and fail the job\n\nbut that math ahs to account of the fact hat we are offsetting by “n” frames. ( clip offset )\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
       "id": 2867,
       "type": "easy ifElse",
       "pos": [
-        920,
-        3420
+        960,
+        3390
       ],
       "size": [
         270,
         80
       ],
       "flags": {},
-      "order": 69,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -4199,95 +4507,19 @@
       ]
     },
     {
-      "id": 2905,
-      "type": "GetNode",
-      "pos": [
-        670,
-        3460
-      ],
-      "size": [
-        260,
-        60
-      ],
-      "flags": {},
-      "order": 45,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "links": [
-            5793
-          ]
-        }
-      ],
-      "title": "Get_prior_clip_last_frame_exists",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "prior_clip_last_frame_exists"
-      ]
-    },
-    {
-      "id": 2865,
-      "type": "GetNode",
-      "pos": [
-        680,
-        3330
-      ],
-      "size": [
-        210,
-        60
-      ],
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            5794
-          ]
-        }
-      ],
-      "title": "Get_prior_clip_last_frame",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "prior_clip_last_frame"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
       "id": 1675,
       "type": "6cfe47b4-e7a5-460f-aba0-ca7417b7d092",
       "pos": [
         1270,
-        2530
+        2510
       ],
       "size": [
         560,
         2080
       ],
-      "flags": {},
+      "flags": {
+        "pinned": true
+      },
       "order": 81,
       "mode": 0,
       "inputs": [
@@ -4436,88 +4668,6 @@
       "widgets_values": []
     },
     {
-      "id": 2786,
-      "type": "GetNode",
-      "pos": [
-        720,
-        2480
-      ],
-      "size": [
-        210,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 47,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            5616
-          ]
-        }
-      ],
-      "title": "Get_audio",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "audio"
-      ]
-    },
-    {
-      "id": 2790,
-      "type": "GetNode",
-      "pos": [
-        850,
-        2530
-      ],
-      "size": [
-        220,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 48,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            5620
-          ]
-        }
-      ],
-      "title": "Get_mocap_clip_all_frames",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "mocap_clip_all_frames"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
       "id": 2737,
       "type": "PrimitiveInt",
       "pos": [
@@ -4529,7 +4679,7 @@
         90
       ],
       "flags": {},
-      "order": 49,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4553,156 +4703,8 @@
         }
       },
       "widgets_values": [
-        15,
+        24,
         "increment"
-      ]
-    },
-    {
-      "id": 2882,
-      "type": "GetNode",
-      "pos": [
-        670,
-        3590
-      ],
-      "size": [
-        230,
-        60
-      ],
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            5753,
-            5797
-          ]
-        }
-      ],
-      "title": "Get_input_media_ref_image",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "input_media_ref_image"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
-      "id": 2868,
-      "type": "PreviewImage",
-      "pos": [
-        920,
-        3710
-      ],
-      "size": [
-        280,
-        250
-      ],
-      "flags": {},
-      "order": 82,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 5734
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "PreviewImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 2908,
-      "type": "PreviewImage",
-      "pos": [
-        890,
-        4030
-      ],
-      "size": [
-        320,
-        270
-      ],
-      "flags": {},
-      "order": 70,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 5797
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "PreviewImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 2904,
-      "type": "SetNode",
-      "pos": [
-        -1970,
-        4220
-      ],
-      "size": [
-        250,
-        60
-      ],
-      "flags": {},
-      "order": 101,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "link": 5801
-        }
-      ],
-      "outputs": [
-        {
-          "name": "BOOLEAN",
-          "type": "BOOLEAN",
-          "links": null
-        }
-      ],
-      "title": "Set_prior_clip_last_frame_exists",
-      "properties": {
-        "Node name for S&R": "SetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "previousName": "prior_clip_last_frame_exists",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "prior_clip_last_frame_exists"
       ]
     },
     {
@@ -5566,8 +5568,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -8554,7 +8556,7 @@
             ],
             "size": [
               238.9009765625,
-              207
+              200
             ],
             "flags": {},
             "order": 53,
@@ -10832,8 +10834,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -11158,8 +11160,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -11753,8 +11755,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -11970,7 +11972,7 @@
             ],
             "size": [
               240,
-              691
+              286
             ],
             "flags": {},
             "order": 1,
@@ -12077,7 +12079,7 @@
               "select_every_nth": 1,
               "format": "LTXV",
               "videopreview": {
-                "hidden": false,
+                "hidden": true,
                 "paused": false,
                 "params": {
                   "filename": "input/be-the-queen-b.mp4",
@@ -12383,8 +12385,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -12914,7 +12916,7 @@
               }
             },
             "widgets_values": [
-              30305716212189,
+              1047011292699059,
               "randomize",
               20,
               8,
@@ -13633,7 +13635,7 @@
               "secondTabWidth": 65
             },
             "widgets_values": [
-              793118002037606,
+              898805704957147,
               "randomize",
               4,
               1,
@@ -14402,8 +14404,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -14673,7 +14675,7 @@
               "secondTabWidth": 65
             },
             "widgets_values": [
-              839529330797693,
+              1030066307777505,
               "randomize"
             ]
           },
@@ -16018,8 +16020,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -17405,8 +17407,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -18414,8 +18416,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2909,
-          "lastLinkId": 5801,
+          "lastNodeId": 2911,
+          "lastLinkId": 5810,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -18449,8 +18451,8 @@
             ],
             "localized_name": "pattern",
             "pos": [
-              55,
-              20
+              -3670,
+              4425
             ]
           },
           {
@@ -18462,8 +18464,8 @@
             ],
             "localized_name": "string_a",
             "pos": [
-              55,
-              40
+              -3670,
+              4445
             ]
           }
         ],
@@ -18477,8 +18479,8 @@
             ],
             "localized_name": "image",
             "pos": [
-              20,
-              20
+              -1170,
+              4425
             ]
           },
           {
@@ -18490,8 +18492,8 @@
             ],
             "localized_name": "exists",
             "pos": [
-              20,
-              40
+              -1170,
+              4445
             ]
           }
         ],
@@ -18679,67 +18681,6 @@
             ]
           },
           {
-            "id": 2884,
-            "type": "Basic data handling: IfElse",
-            "pos": [
-              -2530,
-              4180
-            ],
-            "size": [
-              270,
-              80
-            ],
-            "flags": {},
-            "order": 3,
-            "mode": 0,
-            "inputs": [
-              {
-                "localized_name": "if_true",
-                "name": "if_true",
-                "type": "*",
-                "link": 5769
-              },
-              {
-                "localized_name": "if_false",
-                "name": "if_false",
-                "type": "*",
-                "link": 5779
-              },
-              {
-                "localized_name": "condition",
-                "name": "condition",
-                "type": "BOOLEAN",
-                "widget": {
-                  "name": "condition"
-                },
-                "link": 5767
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "result",
-                "name": "result",
-                "type": "*",
-                "links": [
-                  5778,
-                  5789,
-                  5796
-                ]
-              }
-            ],
-            "properties": {
-              "ue_properties": {
-                "widget_ue_connectable": {},
-                "input_ue_unconnectable": {},
-                "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: IfElse"
-            },
-            "widgets_values": [
-              false
-            ]
-          },
-          {
             "id": 2896,
             "type": "StringConcatenate",
             "pos": [
@@ -18786,52 +18727,6 @@
               "",
               "00001_.png",
               "_"
-            ]
-          },
-          {
-            "id": 2907,
-            "type": "Basic data handling: PathRelative",
-            "pos": [
-              -2620,
-              4410
-            ],
-            "size": [
-              380,
-              120
-            ],
-            "flags": {},
-            "order": 12,
-            "mode": 0,
-            "inputs": [
-              {
-                "localized_name": "path",
-                "name": "path",
-                "type": "STRING",
-                "widget": {
-                  "name": "path"
-                },
-                "link": 5796
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "relative path",
-                "name": "relative path",
-                "type": "STRING",
-                "links": null
-              }
-            ],
-            "properties": {
-              "ue_properties": {
-                "widget_ue_connectable": {},
-                "input_ue_unconnectable": {},
-                "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: PathRelative"
-            },
-            "widgets_values": [
-              "",
-              "/SwarmUI/dlbackend/ComfyUI/output"
             ]
           },
           {
@@ -18886,7 +18781,7 @@
                 "localized_name": "source",
                 "name": "source",
                 "type": "*",
-                "link": 5789
+                "link": 5810
               }
             ],
             "outputs": [
@@ -18968,7 +18863,7 @@
                 "widget": {
                   "name": "path"
                 },
-                "link": 5778
+                "link": 5809
               }
             ],
             "outputs": [
@@ -19060,6 +18955,113 @@
             ],
             "color": "#432",
             "bgcolor": "#653"
+          },
+          {
+            "id": 2884,
+            "type": "Basic data handling: IfElse",
+            "pos": [
+              -2530,
+              4180
+            ],
+            "size": [
+              270,
+              80
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "if_true",
+                "name": "if_true",
+                "type": "*",
+                "link": 5769
+              },
+              {
+                "localized_name": "if_false",
+                "name": "if_false",
+                "type": "*",
+                "link": 5779
+              },
+              {
+                "localized_name": "condition",
+                "name": "condition",
+                "type": "BOOLEAN",
+                "widget": {
+                  "name": "condition"
+                },
+                "link": 5767
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "result",
+                "name": "result",
+                "type": "*",
+                "links": [
+                  5808
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              },
+              "Node name for S&R": "Basic data handling: IfElse"
+            },
+            "widgets_values": [
+              false
+            ]
+          },
+          {
+            "id": 2911,
+            "type": "Basic data handling: StringConcat",
+            "pos": [
+              -2620,
+              4420
+            ],
+            "size": [
+              380,
+              90
+            ],
+            "flags": {},
+            "order": 12,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "string_b",
+                "name": "string_b",
+                "type": "STRING",
+                "widget": {
+                  "name": "string_b"
+                },
+                "link": 5808
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "STRING",
+                "name": "STRING",
+                "type": "STRING",
+                "links": [
+                  5809,
+                  5810
+                ]
+              }
+            ],
+            "properties": {
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {}
+              },
+              "Node name for S&R": "Basic data handling: StringConcat"
+            },
+            "widgets_values": [
+              "/SwarmUI/dlbackend/ComfyUI/output/",
+              ""
+            ]
           }
         ],
         "groups": [],
@@ -19113,14 +19115,6 @@
             "type": "BOOLEAN"
           },
           {
-            "id": 5796,
-            "origin_id": 2884,
-            "origin_slot": 0,
-            "target_id": 2907,
-            "target_slot": 0,
-            "type": "STRING"
-          },
-          {
             "id": 5787,
             "origin_id": 2895,
             "origin_slot": 0,
@@ -19129,28 +19123,12 @@
             "type": "IMAGE"
           },
           {
-            "id": 5789,
-            "origin_id": 2884,
-            "origin_slot": 0,
-            "target_id": 2901,
-            "target_slot": 0,
-            "type": "*"
-          },
-          {
             "id": 5784,
             "origin_id": 2895,
             "origin_slot": 1,
             "target_id": 2899,
             "target_slot": 0,
             "type": "BOOLEAN"
-          },
-          {
-            "id": 5778,
-            "origin_id": 2884,
-            "origin_slot": 0,
-            "target_id": 2895,
-            "target_slot": 0,
-            "type": "STRING"
           },
           {
             "id": 5745,
@@ -19183,9 +19161,36 @@
             "target_id": -20,
             "target_slot": 1,
             "type": "BOOLEAN"
+          },
+          {
+            "id": 5808,
+            "origin_id": 2884,
+            "origin_slot": 0,
+            "target_id": 2911,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5809,
+            "origin_id": 2911,
+            "origin_slot": 0,
+            "target_id": 2895,
+            "target_slot": 0,
+            "type": "STRING"
+          },
+          {
+            "id": 5810,
+            "origin_id": 2911,
+            "origin_slot": 0,
+            "target_id": 2901,
+            "target_slot": 0,
+            "type": "STRING"
           }
         ],
-        "extra": {}
+        "extra": {
+          "ue_links": [],
+          "links_added_by_ue": []
+        }
       }
     ]
   },
@@ -19604,10 +19609,10 @@
       }
     ],
     "ds": {
-      "scale": 0.20080099994620768,
+      "scale": 0.35573122026570964,
       "offset": [
-        6899.139472335443,
-        -1505.9771926222418
+        4143.276150620913,
+        -2883.7152222021423
       ]
     },
     "linkExtensions": [
