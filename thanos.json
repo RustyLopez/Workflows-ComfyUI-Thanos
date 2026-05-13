@@ -1,7 +1,7 @@
 {
   "id": "ea3e4f91-eeb3-49c3-ba36-522152f909f1",
   "revision": 0,
-  "last_node_id": 2913,
+  "last_node_id": 2914,
   "last_link_id": 5813,
   "nodes": [
     {
@@ -2173,13 +2173,13 @@
           "hidden": false,
           "paused": false,
           "params": {
-            "filename": "23_322737872210006_00001-audio.mp4",
+            "filename": "22_322737872210006_00001-audio.mp4",
             "subfolder": "",
             "type": "output",
             "format": "video/h264-mp4",
             "frame_rate": 29.970029970029966,
-            "workflow": "23_322737872210006_00001.png",
-            "fullpath": "/SwarmUI/dlbackend/ComfyUI/output/23_322737872210006_00001-audio.mp4"
+            "workflow": "22_322737872210006_00001.png",
+            "fullpath": "/SwarmUI/dlbackend/ComfyUI/output/22_322737872210006_00001-audio.mp4"
           }
         }
       }
@@ -2698,115 +2698,6 @@
       "bgcolor": "#29699c"
     },
     {
-      "id": 2101,
-      "type": "895738d3-3341-4453-9ee3-80d95664af55",
-      "pos": [
-        -330,
-        2480
-      ],
-      "size": [
-        620,
-        1530
-      ],
-      "flags": {},
-      "order": 62,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "width",
-          "name": "input",
-          "type": "*",
-          "widget": {
-            "name": "input"
-          },
-          "link": 5566
-        },
-        {
-          "label": "height",
-          "name": "input_1",
-          "type": "*",
-          "widget": {
-            "name": "input_1"
-          },
-          "link": 5569
-        },
-        {
-          "label": "pose",
-          "name": "image",
-          "type": "IMAGE",
-          "link": 5618
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "widget": {
-            "name": "seed"
-          },
-          "link": 5562
-        },
-        {
-          "label": "ref",
-          "name": "images",
-          "type": "IMAGE",
-          "link": 5623
-        },
-        {
-          "label": "scene",
-          "name": "image_1",
-          "type": "IMAGE",
-          "link": 5661
-        }
-      ],
-      "outputs": [
-        {
-          "label": "image",
-          "name": "output",
-          "type": "*",
-          "links": [
-            5625,
-            5705
-          ]
-        },
-        {
-          "label": "mask",
-          "name": "value2",
-          "type": "*",
-          "links": [
-            5627
-          ]
-        }
-      ],
-      "properties": {
-        "proxyWidgets": [
-          [
-            "2421",
-            "width"
-          ],
-          [
-            "2421",
-            "height"
-          ],
-          [
-            "2421",
-            "seed"
-          ],
-          [
-            "2421",
-            "value",
-            "2396"
-          ]
-        ],
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "int2": true
-          },
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": []
-    },
-    {
       "id": 2842,
       "type": "GetNode",
       "pos": [
@@ -2847,86 +2738,6 @@
       ]
     },
     {
-      "id": 2839,
-      "type": "SaveImage",
-      "pos": [
-        320,
-        2820
-      ],
-      "size": [
-        270,
-        270
-      ],
-      "flags": {},
-      "order": 85,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 5711
-        },
-        {
-          "name": "filename_prefix",
-          "type": "STRING",
-          "widget": {
-            "name": "filename_prefix"
-          },
-          "link": 5712
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "SaveImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.8"
-        }
-      },
-      "widgets_values": [
-        "ComfyUI"
-      ]
-    },
-    {
-      "id": 2845,
-      "type": "GetNode",
-      "pos": [
-        320,
-        2940
-      ],
-      "size": [
-        240,
-        60
-      ],
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            5712
-          ]
-        }
-      ],
-      "title": "Get_file_prefix_clip_last_frame",
-      "properties": {
-        "Node name for S&R": "GetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "file_prefix_clip_last_frame"
-      ]
-    },
-    {
       "id": 2810,
       "type": "GetNode",
       "pos": [
@@ -2938,7 +2749,7 @@
         60
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3259,7 +3070,7 @@
         60
       ],
       "flags": {},
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3491,7 +3302,7 @@
         60
       ],
       "flags": {},
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3577,7 +3388,7 @@
         90
       ],
       "flags": {},
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3649,7 +3460,7 @@
         180
       ],
       "flags": {},
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3859,7 +3670,7 @@
         60
       ],
       "flags": {},
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3897,7 +3708,7 @@
         60
       ],
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3939,7 +3750,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3979,7 +3790,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4019,7 +3830,7 @@
         60
       ],
       "flags": {},
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4610,7 +4421,7 @@
         60
       ],
       "flags": {},
-      "order": 48,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4638,46 +4449,6 @@
       ],
       "color": "#1b4669",
       "bgcolor": "#29699c"
-    },
-    {
-      "id": 2737,
-      "type": "PrimitiveInt",
-      "pos": [
-        -5460,
-        3910
-      ],
-      "size": [
-        1080,
-        90
-      ],
-      "flags": {},
-      "order": 49,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            5559
-          ]
-        }
-      ],
-      "title": "Clip To Generate This Run as Offset From Clip 0",
-      "properties": {
-        "Node name for S&R": "PrimitiveInt",
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "value": true
-          },
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        25,
-        "increment"
-      ]
     },
     {
       "id": 2909,
@@ -4727,7 +4498,6 @@
           ]
         }
       ],
-      "title": "Load Prior Clip Last Frame If Exists",
       "properties": {
         "proxyWidgets": [
           [
@@ -4745,7 +4515,8 @@
         ],
         "ue_properties": {
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
+          "input_ue_unconnectable": {},
+          "version": "7.8"
         }
       },
       "widgets_values": []
@@ -4793,11 +4564,12 @@
       ],
       "title": "Shift Backwards By Accumulated 1 Frame Overlap",
       "properties": {
+        "Node name for S&R": "Basic data handling: IntSubtract",
         "ue_properties": {
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        },
-        "Node name for S&R": "Basic data handling: IntSubtract"
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
       },
       "widgets_values": [
         0,
@@ -4816,16 +4588,251 @@
         210
       ],
       "flags": {},
-      "order": 50,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [],
-      "properties": {},
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
       "widgets_values": [
         "Each successive clip, shifts backwars so that its first frame can be set to the exact same frame as the prior clips last frame.\n\nThis means the (current clip offset) * 1 ; or you know just the current clip offset, is the amount of frames we have to shift backwards to ensure we are overlapping with the last frame of the prior clip, accounting for it's own backwardds shift as well.\n\nSo for clip 0, 0 frames, 0 offset.\nFor clip 1, 1 frame shift for overlap, the prior had zero offset, but the current has 1 offset\nFor clip 2, 1 frame shift for overlap, but the prior clip had 1 frame also so 2 frames.\n\nBut this works out such that the number of shifts is equal to the clip offset.\n\nNOTE This works with our current design of, just run batches till you run out of footage. But if you were trying to produce a specific run length, then you have to be aware of these overlaps when determining how many clips there would be in total and how much excess in the last clip.\n\nNOTE: We can't compensate for the run time by adding a fraem to the end because LTX, in the current version requires duration intervals of every 8th frame with a 1 frame shift. So we have to shift the start and retain duration, rather than extending the trailing clip to encompass the overlap. \n\nALSO because we are overlapping, this has implications for stitching the video together that are not yet addressed.\n\nWe want to keep clip lengths at ltx supported durations until we are done working with all the data. \n\nOnly then, can we prune redundant first frames all but the first clip. Or in your video editor of choice, you'll need to make sure all the clips overlap by 1 frame and trum the audio accordingly."
       ],
       "color": "#432",
       "bgcolor": "#653"
+    },
+    {
+      "id": 2845,
+      "type": "GetNode",
+      "pos": [
+        310,
+        2840
+      ],
+      "size": [
+        240,
+        60
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            5712
+          ]
+        }
+      ],
+      "title": "Get_file_prefix_clip_last_frame",
+      "properties": {
+        "Node name for S&R": "GetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "file_prefix_clip_last_frame"
+      ]
+    },
+    {
+      "id": 2839,
+      "type": "SaveImage",
+      "pos": [
+        330,
+        2970
+      ],
+      "size": [
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 5711
+        },
+        {
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          },
+          "link": 5712
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 2737,
+      "type": "PrimitiveInt",
+      "pos": [
+        -5460,
+        3910
+      ],
+      "size": [
+        1080,
+        90
+      ],
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            5559
+          ]
+        }
+      ],
+      "title": "Clip To Generate This Run as Offset From Clip 0",
+      "properties": {
+        "Node name for S&R": "PrimitiveInt",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "value": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        26,
+        "increment"
+      ]
+    },
+    {
+      "id": 2101,
+      "type": "895738d3-3341-4453-9ee3-80d95664af55",
+      "pos": [
+        -330,
+        2480
+      ],
+      "size": [
+        620,
+        1530
+      ],
+      "flags": {},
+      "order": 62,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "width",
+          "name": "input",
+          "type": "*",
+          "widget": {
+            "name": "input"
+          },
+          "link": 5566
+        },
+        {
+          "label": "height",
+          "name": "input_1",
+          "type": "*",
+          "widget": {
+            "name": "input_1"
+          },
+          "link": 5569
+        },
+        {
+          "label": "pose",
+          "name": "image",
+          "type": "IMAGE",
+          "link": 5618
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 5562
+        },
+        {
+          "label": "ref",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 5623
+        },
+        {
+          "label": "scene",
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 5661
+        }
+      ],
+      "outputs": [
+        {
+          "label": "image",
+          "name": "output",
+          "type": "*",
+          "links": [
+            5625,
+            5705
+          ]
+        },
+        {
+          "label": "mask",
+          "name": "value2",
+          "type": "*",
+          "links": [
+            5627
+          ]
+        }
+      ],
+      "properties": {
+        "proxyWidgets": [
+          [
+            "2421",
+            "width"
+          ],
+          [
+            "2421",
+            "height"
+          ],
+          [
+            "2421",
+            "seed"
+          ],
+          [
+            "2421",
+            "value",
+            "2396"
+          ]
+        ],
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "int2": true
+          },
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
     }
   ],
   "links": [
@@ -5633,7 +5640,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -9747,150 +9754,6 @@
             "widgets_values": []
           },
           {
-            "id": 2667,
-            "type": "8d3a9dd3-fb01-48c8-8ad9-a31a31df85cf",
-            "pos": [
-              6490,
-              4890
-            ],
-            "size": [
-              400,
-              900
-            ],
-            "flags": {},
-            "order": 72,
-            "mode": 0,
-            "inputs": [
-              {
-                "localized_name": "noise_seed",
-                "name": "noise_seed",
-                "type": "INT",
-                "widget": {
-                  "name": "noise_seed"
-                },
-                "link": 5407
-              },
-              {
-                "localized_name": "model",
-                "name": "model",
-                "type": "MODEL",
-                "link": 5396
-              },
-              {
-                "localized_name": "audio_latent",
-                "name": "audio_latent",
-                "type": "LATENT",
-                "link": 5388
-              },
-              {
-                "localized_name": "positive",
-                "name": "positive",
-                "type": "CONDITIONING",
-                "link": 5386
-              },
-              {
-                "localized_name": "negative",
-                "name": "negative",
-                "type": "CONDITIONING",
-                "link": 5387
-              },
-              {
-                "localized_name": "vae",
-                "name": "vae",
-                "type": "VAE",
-                "link": 5417
-              },
-              {
-                "localized_name": "image",
-                "name": "image",
-                "type": "IMAGE",
-                "link": 5423
-              },
-              {
-                "localized_name": "latent",
-                "name": "latent",
-                "type": "LATENT",
-                "link": 5389
-              },
-              {
-                "label": "available_keyframes",
-                "name": "list",
-                "type": "LIST",
-                "link": 5703
-              },
-              {
-                "label": "keyframe_masks",
-                "name": "attention_mask",
-                "type": "MASK",
-                "link": 5476
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "positive",
-                "name": "positive",
-                "type": "CONDITIONING",
-                "links": [
-                  5390
-                ]
-              },
-              {
-                "localized_name": "negative",
-                "name": "negative",
-                "type": "CONDITIONING",
-                "links": [
-                  5391
-                ]
-              },
-              {
-                "localized_name": "latent",
-                "name": "latent",
-                "type": "LATENT",
-                "links": [
-                  5392
-                ]
-              },
-              {
-                "localized_name": "audio_latent",
-                "name": "audio_latent",
-                "type": "LATENT",
-                "links": [
-                  5393
-                ]
-              }
-            ],
-            "properties": {
-              "proxyWidgets": [
-                [
-                  "1628",
-                  "noise_seed"
-                ],
-                [
-                  "1628",
-                  "control_after_generate"
-                ],
-                [
-                  "2705",
-                  "$$canvas-image-preview"
-                ],
-                [
-                  "2709",
-                  "$$canvas-image-preview"
-                ],
-                [
-                  "2724",
-                  "$$canvas-image-preview"
-                ]
-              ],
-              "ue_properties": {
-                "widget_ue_connectable": {},
-                "input_ue_unconnectable": {},
-                "version": "7.8"
-              }
-            },
-            "widgets_values": []
-          },
-          {
             "id": 2718,
             "type": "GetNode",
             "pos": [
@@ -10071,6 +9934,150 @@
             ],
             "color": "#323",
             "bgcolor": "#535"
+          },
+          {
+            "id": 2667,
+            "type": "8d3a9dd3-fb01-48c8-8ad9-a31a31df85cf",
+            "pos": [
+              6490,
+              4890
+            ],
+            "size": [
+              400,
+              900
+            ],
+            "flags": {},
+            "order": 72,
+            "mode": 0,
+            "inputs": [
+              {
+                "localized_name": "noise_seed",
+                "name": "noise_seed",
+                "type": "INT",
+                "widget": {
+                  "name": "noise_seed"
+                },
+                "link": 5407
+              },
+              {
+                "localized_name": "model",
+                "name": "model",
+                "type": "MODEL",
+                "link": 5396
+              },
+              {
+                "localized_name": "audio_latent",
+                "name": "audio_latent",
+                "type": "LATENT",
+                "link": 5388
+              },
+              {
+                "localized_name": "positive",
+                "name": "positive",
+                "type": "CONDITIONING",
+                "link": 5386
+              },
+              {
+                "localized_name": "negative",
+                "name": "negative",
+                "type": "CONDITIONING",
+                "link": 5387
+              },
+              {
+                "localized_name": "vae",
+                "name": "vae",
+                "type": "VAE",
+                "link": 5417
+              },
+              {
+                "localized_name": "image",
+                "name": "image",
+                "type": "IMAGE",
+                "link": 5423
+              },
+              {
+                "localized_name": "latent",
+                "name": "latent",
+                "type": "LATENT",
+                "link": 5389
+              },
+              {
+                "label": "available_keyframes",
+                "name": "list",
+                "type": "LIST",
+                "link": 5703
+              },
+              {
+                "label": "keyframe_masks",
+                "name": "attention_mask",
+                "type": "MASK",
+                "link": 5476
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "positive",
+                "name": "positive",
+                "type": "CONDITIONING",
+                "links": [
+                  5390
+                ]
+              },
+              {
+                "localized_name": "negative",
+                "name": "negative",
+                "type": "CONDITIONING",
+                "links": [
+                  5391
+                ]
+              },
+              {
+                "localized_name": "latent",
+                "name": "latent",
+                "type": "LATENT",
+                "links": [
+                  5392
+                ]
+              },
+              {
+                "localized_name": "audio_latent",
+                "name": "audio_latent",
+                "type": "LATENT",
+                "links": [
+                  5393
+                ]
+              }
+            ],
+            "properties": {
+              "proxyWidgets": [
+                [
+                  "1628",
+                  "noise_seed"
+                ],
+                [
+                  "1628",
+                  "control_after_generate"
+                ],
+                [
+                  "2705",
+                  "$$canvas-image-preview"
+                ],
+                [
+                  "2709",
+                  "$$canvas-image-preview"
+                ],
+                [
+                  "2724",
+                  "$$canvas-image-preview"
+                ]
+              ],
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              }
+            },
+            "widgets_values": []
           }
         ],
         "groups": [
@@ -10899,7 +10906,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -11225,7 +11232,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -11394,110 +11401,6 @@
             "bgcolor": "#653"
           },
           {
-            "id": 2421,
-            "type": "3c20043c-300f-4309-a16c-9a899ce39696",
-            "pos": [
-              -2820,
-              -1900
-            ],
-            "size": [
-              550,
-              1000
-            ],
-            "flags": {},
-            "order": 1,
-            "mode": 0,
-            "inputs": [
-              {
-                "label": "pose",
-                "localized_name": "image2",
-                "name": "image2",
-                "type": "IMAGE",
-                "link": 5624
-              },
-              {
-                "localized_name": "seed",
-                "name": "seed",
-                "type": "INT",
-                "widget": {
-                  "name": "seed"
-                },
-                "link": 4741
-              },
-              {
-                "localized_name": "image",
-                "name": "image",
-                "type": "IMAGE",
-                "link": 4740
-              },
-              {
-                "localized_name": "width",
-                "name": "width",
-                "type": "INT",
-                "widget": {
-                  "name": "width"
-                },
-                "link": 4755
-              },
-              {
-                "localized_name": "height",
-                "name": "height",
-                "type": "INT",
-                "widget": {
-                  "name": "height"
-                },
-                "link": 4756
-              },
-              {
-                "label": "scene",
-                "name": "image_1",
-                "type": "IMAGE",
-                "link": 5660
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "IMAGE",
-                "name": "IMAGE",
-                "type": "IMAGE",
-                "links": [
-                  4754,
-                  5685
-                ]
-              }
-            ],
-            "properties": {
-              "proxyWidgets": [
-                [
-                  "2415",
-                  "seed"
-                ],
-                [
-                  "2608",
-                  "width"
-                ],
-                [
-                  "2608",
-                  "height"
-                ],
-                [
-                  "2409",
-                  "$$canvas-image-preview"
-                ],
-                [
-                  "2442",
-                  "$$canvas-image-preview"
-                ]
-              ],
-              "ue_properties": {
-                "widget_ue_connectable": {},
-                "input_ue_unconnectable": {},
-                "version": "7.8"
-              }
-            },
-            "widgets_values": []
-          },
-          {
             "id": 2424,
             "type": "BiRefNetRMBG",
             "pos": [
@@ -11660,6 +11563,110 @@
               "",
               ""
             ]
+          },
+          {
+            "id": 2421,
+            "type": "3c20043c-300f-4309-a16c-9a899ce39696",
+            "pos": [
+              -2820,
+              -1900
+            ],
+            "size": [
+              550,
+              1000
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+              {
+                "label": "pose",
+                "localized_name": "image2",
+                "name": "image2",
+                "type": "IMAGE",
+                "link": 5624
+              },
+              {
+                "localized_name": "seed",
+                "name": "seed",
+                "type": "INT",
+                "widget": {
+                  "name": "seed"
+                },
+                "link": 4741
+              },
+              {
+                "localized_name": "image",
+                "name": "image",
+                "type": "IMAGE",
+                "link": 4740
+              },
+              {
+                "localized_name": "width",
+                "name": "width",
+                "type": "INT",
+                "widget": {
+                  "name": "width"
+                },
+                "link": 4755
+              },
+              {
+                "localized_name": "height",
+                "name": "height",
+                "type": "INT",
+                "widget": {
+                  "name": "height"
+                },
+                "link": 4756
+              },
+              {
+                "label": "scene",
+                "name": "image_1",
+                "type": "IMAGE",
+                "link": 5660
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "IMAGE",
+                "name": "IMAGE",
+                "type": "IMAGE",
+                "links": [
+                  4754,
+                  5685
+                ]
+              }
+            ],
+            "properties": {
+              "proxyWidgets": [
+                [
+                  "2415",
+                  "seed"
+                ],
+                [
+                  "2608",
+                  "width"
+                ],
+                [
+                  "2608",
+                  "height"
+                ],
+                [
+                  "2409",
+                  "$$canvas-image-preview"
+                ],
+                [
+                  "2442",
+                  "$$canvas-image-preview"
+                ]
+              ],
+              "ue_properties": {
+                "widget_ue_connectable": {},
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              }
+            },
+            "widgets_values": []
           }
         ],
         "groups": [],
@@ -11820,7 +11827,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -12450,7 +12457,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -12981,7 +12988,7 @@
               }
             },
             "widgets_values": [
-              932197015549111,
+              754982910845728,
               "randomize",
               20,
               8,
@@ -13700,7 +13707,7 @@
               "secondTabWidth": 65
             },
             "widgets_values": [
-              54915068129812,
+              934623060772566,
               "randomize",
               4,
               1,
@@ -14469,7 +14476,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -14699,7 +14706,7 @@
               90
             ],
             "flags": {},
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [
               {
@@ -14740,7 +14747,7 @@
               "secondTabWidth": 65
             },
             "widgets_values": [
-              209941923538673,
+              353265974777959,
               "randomize"
             ]
           },
@@ -14756,7 +14763,7 @@
               110
             ],
             "flags": {},
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [
               {
@@ -14867,7 +14874,7 @@
               70
             ],
             "flags": {},
-            "order": 10,
+            "order": 11,
             "mode": 0,
             "inputs": [
               {
@@ -14924,7 +14931,7 @@
               130
             ],
             "flags": {},
-            "order": 4,
+            "order": 5,
             "mode": 0,
             "inputs": [
               {
@@ -15005,7 +15012,7 @@
               280
             ],
             "flags": {},
-            "order": 14,
+            "order": 15,
             "mode": 0,
             "inputs": [
               {
@@ -15123,7 +15130,7 @@
               130
             ],
             "flags": {},
-            "order": 9,
+            "order": 10,
             "mode": 0,
             "inputs": [
               {
@@ -15182,7 +15189,7 @@
               50
             ],
             "flags": {},
-            "order": 13,
+            "order": 14,
             "mode": 0,
             "inputs": [
               {
@@ -15230,7 +15237,7 @@
               280
             ],
             "flags": {},
-            "order": 17,
+            "order": 18,
             "mode": 0,
             "inputs": [
               {
@@ -15263,7 +15270,7 @@
               50
             ],
             "flags": {},
-            "order": 16,
+            "order": 17,
             "mode": 0,
             "inputs": [
               {
@@ -15311,7 +15318,7 @@
               50
             ],
             "flags": {},
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
               {
@@ -15359,7 +15366,7 @@
               70
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [
               {
@@ -15418,7 +15425,7 @@
               280
             ],
             "flags": {},
-            "order": 12,
+            "order": 13,
             "mode": 0,
             "inputs": [
               {
@@ -15451,7 +15458,7 @@
               250
             ],
             "flags": {},
-            "order": 15,
+            "order": 16,
             "mode": 0,
             "inputs": [
               {
@@ -15484,7 +15491,7 @@
               90
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
               {
@@ -15565,7 +15572,7 @@
               30
             ],
             "flags": {},
-            "order": 18,
+            "order": 19,
             "mode": 0,
             "inputs": [
               {
@@ -15607,7 +15614,7 @@
               30
             ],
             "flags": {},
-            "order": 19,
+            "order": 20,
             "mode": 0,
             "inputs": [
               {
@@ -15650,7 +15657,7 @@
               310
             ],
             "flags": {},
-            "order": 8,
+            "order": 9,
             "mode": 0,
             "inputs": [
               {
@@ -15728,7 +15735,7 @@
               }
             },
             "widgets_values": [
-              0,
+              -1,
               1,
               4,
               0,
@@ -15736,6 +15743,29 @@
               "disabled",
               1
             ]
+          },
+          {
+            "id": 2914,
+            "type": "Note",
+            "pos": [
+              5410,
+              5750
+            ],
+            "size": [
+              210,
+              110
+            ],
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [],
+            "properties": {},
+            "widgets_values": [
+              "Last frame is supposed to be the last frame....\n\n-1 frame idx, not 0"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
           }
         ],
         "groups": [
@@ -16085,7 +16115,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -17472,7 +17502,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -18481,7 +18511,7 @@
         "version": 1,
         "state": {
           "lastGroupId": 69,
-          "lastNodeId": 2913,
+          "lastNodeId": 2914,
           "lastLinkId": 5813,
           "lastRerouteId": 24
         },
@@ -18602,12 +18632,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "Basic data handling: PathGlob",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: PathGlob"
+              }
             },
             "widgets_values": [
               "*.txt",
@@ -18647,12 +18677,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "Basic data handling: DataListLast",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: DataListLast"
+              }
             },
             "widgets_values": []
           },
@@ -18689,12 +18719,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "Basic data handling: DataListLength",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: DataListLength"
+              }
             },
             "widgets_values": []
           },
@@ -18734,12 +18764,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "IntToBool|LP",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "IntToBool|LP"
+              }
             },
             "widgets_values": [
               0
@@ -18781,12 +18811,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "StringConcatenate",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "StringConcatenate"
+              }
             },
             "widgets_values": [
               "",
@@ -18818,12 +18848,12 @@
             ],
             "outputs": [],
             "properties": {
+              "Node name for S&R": "PreviewImage",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "PreviewImage"
+              }
             },
             "widgets_values": []
           },
@@ -18858,12 +18888,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "PreviewAny",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "PreviewAny"
+              }
             },
             "widgets_values": [
               null,
@@ -18895,12 +18925,12 @@
             ],
             "outputs": [],
             "properties": {
+              "Node name for S&R": "ConsoleDebug+",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "ConsoleDebug+"
+              }
             },
             "widgets_values": [
               "Prior Exists"
@@ -18952,12 +18982,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "Basic data handling: PathLoadImageRGB",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: PathLoadImageRGB"
+              }
             },
             "widgets_values": [
               ""
@@ -19069,12 +19099,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "Basic data handling: IfElse",
               "ue_properties": {
                 "widget_ue_connectable": {},
                 "input_ue_unconnectable": {},
                 "version": "7.8"
-              },
-              "Node name for S&R": "Basic data handling: IfElse"
+              }
             },
             "widgets_values": [
               false
@@ -19117,11 +19147,12 @@
               }
             ],
             "properties": {
+              "Node name for S&R": "Basic data handling: StringConcat",
               "ue_properties": {
                 "widget_ue_connectable": {},
-                "input_ue_unconnectable": {}
-              },
-              "Node name for S&R": "Basic data handling: StringConcat"
+                "input_ue_unconnectable": {},
+                "version": "7.8"
+              }
             },
             "widgets_values": [
               "/SwarmUI/dlbackend/ComfyUI/output/",
@@ -19673,19 +19704,19 @@
         ]
       }
     ],
-    "ds": {
-      "scale": 0.6932195119356613,
-      "offset": [
-        -798.7096485063281,
-        -2323.66377141931
-      ]
-    },
     "linkExtensions": [
       {
         "id": 5562,
         "parentId": 18
       }
-    ]
+    ],
+    "ds": {
+      "scale": 0.9312571164155552,
+      "offset": [
+        -4344.666297803896,
+        -5237.639839954415
+      ]
+    }
   },
   "version": 0.4
 }
